@@ -3,10 +3,10 @@ namespace :finc do
     print("FINC\n")
   end
 
-print_finc
-print_finc
-print_finc
-print_finc
-print_finc
+num = 1
+  for num in 1..5 do
+    print_finc
+    num = num + 1
+  end
 
 end
